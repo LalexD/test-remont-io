@@ -1,0 +1,7 @@
+.total {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-h);
+  text-align: left;
+}

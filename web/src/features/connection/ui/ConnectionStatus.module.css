@@ -1,0 +1,39 @@
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  border: 1px solid var(--border);
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.online {
+  background: rgba(34, 197, 94, 0.12);
+}
+
+.online .dot {
+  background: #22c55e;
+}
+
+.offline {
+  background: rgba(234, 179, 8, 0.12);
+}
+
+.offline .dot {
+  background: #eab308;
+}
+
+.backendDown {
+  background: rgba(239, 68, 68, 0.12);
+}
+
+.backendDown .dot {
+  background: #ef4444;
+}

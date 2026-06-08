@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.name {
+  color: var(--text-h);
+  font-weight: 500;
+}
+
+.meta {
+  font-size: 14px;
+}
+
+.deleteButton {
+  flex-shrink: 0;
+}
