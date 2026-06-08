@@ -54,6 +54,7 @@ cp .env.example .env
 
 ```bash
 docker compose up -d
+npm install
 npm run db:setup
 npm run dev
 
